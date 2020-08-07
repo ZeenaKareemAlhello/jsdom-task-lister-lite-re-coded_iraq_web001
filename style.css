@@ -1,37 +1,76 @@
-html {
-  height: 100%;
-  width: 100%;
-  font-family: "Titillium Web", sans-serif;
+
+#input1,#task,select{
+    margin: 10px 0px;
+    background:rgb(218, 215, 52) ;
+}
+select{
+    width:150px;
+}
+h3{
+    font-family: "Times New Roman";
+}
+p{
+    font-size:15px;
+    margin:5px;
+ color:gray;
+ font-family: "Times New Roman";
+}
+body{
+    background:rgb(218, 215, 52);
+    
+}
+.header{
+    background:black ;
+    color: gray;
 }
 
-body {
-  min-height: 100%;
-  min-width: 100%;
-  background: linear-gradient(pink, violet);
+
+
+
+form{
+    padding: 10px 40%;
+    border-bottom: 30px solid black;
 }
 
-button {
-  font-size: 7px;
+li:hover{
+background: black;
+color:gray;
 }
 
-#main-content {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border: 1px solid #333;
-  background: rgba(255, 255, 255, 0.3);
-  padding: 15px 20px 18px 18px;
-  border-radius: 5px;
-  box-shadow: 2px 5px 5px #333;
+#list li{
+width:100%;
+padding:0px 15px;
+list-style-type: none;
+ color: white;
+ border-bottom:solid 2px rgba(0, 0, 0, 0.699) ;
+ position:relative;
+ margin-top: 30px;
+ margin-bottom: 20px;
+
+ box-shadow: 0px 5px rgba(219, 212, 212, 0.274);
+}
+.mystyle{
+border-top:solid 3px rgb(43, 33, 53)  ;
+width:400px;
+height: 200px;
+}
+.button{
+  height:30px;
+  border: solid 2px rgb(43, 33, 53) ;
+  border-radius: 2px;
+background:rgb(218, 215, 52) ;
+color:white;
+}
+#bin{
+    position:absolute;
+  right:0px;
+  top:10px;
+  color:gray;
 }
 
-#list {
-  margin: 10px;
-  border: 1px solid #333;
-  background: rgba(255, 255, 255, 0.75);
-  padding: 15px 20px 18px 18px;
-  border-radius: 5px;
-  box-shadow: 2px 5px 5px #333;
+#myCheck{
+    position:absolute;
+    left:0px;
+    top:12px;
+  
 }

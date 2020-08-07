@@ -6,6 +6,62 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+  
+   <main class="d-flex flex-column ">
+
+            <div class="header">
+            <h1>ToDay</h1>
+            <h1 id='h'></h1>
+            </div>
+
+            <form  class="d-flex flex-column justify-content-center" >
+                      <div>
+                            <input  onfocus="(this.type='date')"  id="input1" name="datemin" placeholder="select deadline"  required>
+            
+                            <input type="text"  id="task" placeholder="enter your task" name="todo" required>
+                        </div>
+            
+                 <!-- priority-->
+
+                 <select id="dropdown" name="demoSelect"> <!--onchange="showData()"> -->
+                          <option value="1">priority 1</option>
+                          <option value="2">priority 2</option>
+                          <option value="3">priority 3</option>
+                </select>
+                <!--button -->
+                <div>
+                    <input type="submit" id="todo" class="button" value="add todo">
+               </div>
+          </form>
+          
+          <div class="col-xl-5 mx-auto  md-auto col-md-6">
+            <ul id="list" class="d-flex flex-column ">
+
+            </ul>
+        </div>
+    <script src="./src/index.js"></script>
+       
+       </script>
+       </main>
+ </body>
+  </html>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!--
   <div id="main-content">
     <h1>Task Lister Lite™️</h1>
 
@@ -26,3 +82,4 @@
 
 </body>
 </html>
+-->
